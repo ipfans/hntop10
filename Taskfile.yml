@@ -1,0 +1,15 @@
+# https://taskfile.dev
+
+version: "3"
+
+vars:
+  GREETING: Hello, World!
+
+tasks:
+  default:
+    cmds:
+      - go run .
+
+  pack:
+    cmds:
+      - fyne package --appVersion 1.0.0 --release --os darwin --appID com.acgso.hntop10 --icon Icon.pn
