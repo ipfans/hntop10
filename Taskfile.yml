@@ -12,4 +12,4 @@ tasks:
 
   pack:
     cmds:
-      - fyne package --appVersion 1.0.0 --release --os darwin --appID com.acgso.hntop10 --icon Icon.pn
+      - fyne package --appVersion 1.0.0 --release --os darwin --appID com.acgso.hntop10 --icon Icon.png
