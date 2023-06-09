@@ -66,6 +66,7 @@ func exit() {
 
 func onExit() {
 	scheduler.Stop()
+	db.Close()
 }
 
 func openURL(url string) {
